@@ -12,6 +12,7 @@
   },
   "scripts": {
     "preinstall": "npx only-allow yarn",
-    "initialize": "yarn husky install"
+    "initialize": "yarn husky install",
+    "release": "standard-version"
   }
 }
